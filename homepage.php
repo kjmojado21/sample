@@ -1,7 +1,8 @@
 <?php 
+
 include 'user_action.php';
 $loginID = $_SESSION['login_id'];
-$currentUser = $Sns->getLoggedInUser($loginID);
+$user = $Sns->getLoggedInUser($loginID);
 
 ?>
 <!DOCTYPE html>
